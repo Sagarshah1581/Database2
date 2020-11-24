@@ -1,0 +1,50 @@
+
+    *{ 
+/*     Below code allows to set the thickness of margins and  padding*/
+        margin: 0;padding: 0;    
+        }body{
+            /* Below code allows to set the background color heght,width,font type  of the body*/
+            background: linear-gradient(#050000 2%, #A60000 15%);
+            height: 850px;
+            width: 100%;
+            font-family: sans-serif;
+            color: #fff;
+        }
+        header{
+            /* Below code allows to set the background color heght,width,font type  of the body*/
+            margin: 90px 0 0 0;
+            background-color: #000;
+            height: 35px;
+            width: 100%;
+            padding: 12px 0px;
+        }
+    .wf-mod{  
+        /* below code allows to set padding ,width,font-family,text-transform, color */
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 35px;
+        text-transform: uppercase;
+        padding: 20px 50px;
+    }
+    .wf-mod-table{
+        padding: 0px;
+    }
+    .wf-mod-table tr th,.wf-mod-table tr td{
+          /* below code allows to set padding ,font-size,text-align */
+        padding: 15px 10% 0 0%;
+        font-size: 20px;width:350px;
+        text-align: center;
+    }
+    .wf-mod-table tr td img{
+          /* below code allows to set padding ,width, height */
+    width:180px;
+    height: 80px;
+    padding: 0 0 0 15%;
+    }
+    .wf-youtube{
+          /* below code allows to set padding , float ,width,s height */
+        float: right;
+        margin-top: 10%;
+        height: 2%;
+        width: 4%;
+    }
