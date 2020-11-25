@@ -93,14 +93,97 @@ color: whitesmoke;
        <li><a href="modeles2.html">Footwear</a></li>
        <li><a href="Mobiles.html">Mobiles</a></li>
        <li><a href="car.html">Car</a></li><br>
-       
         
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <div id="data">  </div>
-        <li class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-          <a href="Login.html">Login</a></li>
-      
+      <li class="active"><a style="background-color: #168ab8; color: white;" href="./index.html">
+          Login</a></li>
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                          ×</button>
+                      <h4 class="modal-title" id="myModalLabel"> Login/Registration </h4>
+                  </div>
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                              <!-- Nav tabs -->
+                              <ul class="nav nav-tabs">
+                                  <li class="active" id="login"><a href="#Login" data-toggle="tab">Login</a></li>
+                                  <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                              </ul>
+                              <!-- Tab panes -->
+                              <div class="tab-content">
+                                  <div class="tab-pane active" id="Login">
+                                      <form role="form" class="form-horizontal">
+                                      <div class="form-group">
+                                          <label for="username" class="col-sm-2 control-label">
+                                              Username</label>
+                                          <div class="col-sm-10">
+                                              <input type="text" class="form-control" id="username" placeholder="Username" required/>
+                                          </div>
+                                          <div id="Unerror"> </div>
+                                      </div>
+                                      <div class="form-group">
+                                          <label for="Password" class="col-sm-2 control-label">
+                                              Password</label>
+                                          <div class="col-sm-10">
+                                              <input type="password" class="form-control" id="password" placeholder="password" required/>
+                                          </div>
+                                          <div id="passerror"> </div>
+                                      </div>
+                                      <div class="row">
+                                          <div class="col-sm-2">
+                                          </div>
+                                          <div class="col-sm-10">
+                                              <button type="button" id = "submit" class="btn btn-primary btn-sm" onclick="combined();"> Submit</button>
+                                              <a href="#">Forgot your password?</a>
+                                          </div>
+                                      </div>
+                                      </form>
+                                  </div>
+                                  <div class="tab-pane" id="Registration">
+                                    <form  name="signInform" method="POST" >
+                                      <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                          <label for="fname">Full Name</label>
+                                          <input type="text" class="form-control" id="fname" placeholder="FullName" required>
+                                          <div class="error" id="fullnameErr"> </div>
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="Email">Email</label>
+                                        <input type="t+ext" class="form-control" id="email" placeholder="abc123@gmail.com" required>
+                                        <div class="error" id="emailErr"></div>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="Address2">Password</label>
+                                        <input type="text" class="form-control" id="password" required>
+                                        <div class="error" id="passwordErr"></div>
+                                      </div>    
+                                      <br><br>
+                                      <div class="col-sm-10">
+                                        <button id="signin" type="button" class="btn btn-primary" style="float: right;" onclick="hello()">Sign in</button>
+                                        <button type="button" class="btn btn-primary" id="datapreview" onclick="display();"> Preview </button>
+                                        <button id="Cancel" type="button" class="btn btn-default btn-sm"><a href="mainPage.html">
+                                            Cancel</a></button>
+                                    </div>
+                                    </form>
+                                </div>
+                              </div>
+                              <
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
       </ul>
     </div>
   </div>
