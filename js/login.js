@@ -1,12 +1,12 @@
 //invokes firebase authentication. 
 var firebaseConfig = {
-    apiKey: "AIzaSyDsOeApdTX_W4_8yy5a2IpYBKmPiajchFg",
-    authDomain: "software-testing-460d2.firebaseapp.com",
-    databaseURL: "https://software-testing-460d2.firebaseio.com",
-    projectId: "software-testing-460d2",
-    storageBucket: "software-testing-460d2.appspot.com",
-    messagingSenderId: "395452223346",
-    appId: "1:395452223346:web:b201923af029ccbd7e57eb"
+    apiKey: "AIzaSyCzW8tDp0l6ALmLd5A9naY5GE1KF6hP1AI",
+    authDomain: "database2-569de.firebaseapp.com",
+    databaseURL: "https://database2-569de.firebaseio.com",
+    projectId: "database2-569de",
+    storageBucket: "database2-569de.appspot.com",
+    messagingSenderId: "561218875355",
+    appId: "1:561218875355:web:530d8b98dcbc3bb61b01fe"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
